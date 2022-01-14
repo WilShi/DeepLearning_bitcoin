@@ -39,6 +39,11 @@ def build_model():
     model.compile(loss='mean_squared_error', optimizer='adam')
     return model
 
+fileTrain = './data/accTrain.csv'
+jjTrain = ['004609', '004853', '005524', '005824', '007749']
+fileTest = './data/accTest.csv'
+jjTest = '007669'
+
 # 导入数据
 with open(fileTrain) as f:
     row = csv.reader(f, delimiter=',')

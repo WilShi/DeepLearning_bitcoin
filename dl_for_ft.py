@@ -224,8 +224,8 @@ def run(graph=True):
 if __name__ == "__main__":
 
 
-    # createTable("bitcoin")
-    # createTable("ethereum")
+    createTable("bitcoin")
+    createTable("ethereum")
 
     run(graph=False)
 

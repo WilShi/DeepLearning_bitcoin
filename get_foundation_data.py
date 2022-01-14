@@ -9,7 +9,7 @@ import execjs
 fileTrain = './data/accTrain.csv'
 jjTrain = ['004609', '004853', '005524', '005824', '007749']
 fileTest = './data/accTest.csv'
-jjTest = '007669'
+jjTest = '009331'
 
 def getUrl(fscode):
     head = 'http://fund.eastmoney.com/pingzhongdata/'
